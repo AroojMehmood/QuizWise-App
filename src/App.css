@@ -1,0 +1,65 @@
+* {
+  box-sizing: border-box;
+}
+html, body, #root {
+  height: 100%;
+  width: 100%;
+  margin: 0;
+  overflow-x: hidden;
+
+}
+
+:root {
+  --color-darkest: #00151f;
+  --color-dark: #1a2838;
+  --color-mid: #00385a;
+  --color-light: #5c8191;
+  --color-lightest: #668595;
+  --color-accent: #d98e73;
+--color-accent-light: #e8a87c;
+}
+
+.app-shell {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+.page-area {
+  flex: 1;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  min-height: 0;
+}
+
+body {
+  background: linear-gradient(
+    -45deg,
+    #00151f,
+    #132032,
+    #1a2838,
+    #00385a,
+    #284453,
+    #5c8191,
+    #668595
+  );
+  background-size: 400% 400%;
+  animation: gradientFlow 18s ease infinite;
+  margin: 0;
+  font-family: 'Segoe UI', sans-serif;
+  color: var(--color-lightest);
+}
+
+@keyframes gradientFlow {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+

@@ -1,0 +1,104 @@
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 2rem;
+  padding: 1rem 2rem;
+  padding-right: 4rem;
+  background: rgba(0, 10, 18, 0.35);
+  backdrop-filter: blur(12px);
+  border-bottom: 1px solid rgba(255, 255, 255, 0.08);
+  position: sticky;
+  top: 0;
+  z-index: 100;
+}
+.app-logo {
+  display: flex;
+  align-items: center;
+  gap: 0.7rem;
+  
+}
+
+.logo-icon-box {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 49px;
+  height: 45px;
+  background: linear-gradient(135deg, var(--color-accent), var(--color-accent-light));
+  border-radius: 10px;
+}
+
+.logo-text {
+  font-size: 1.4rem;
+  font-weight: 800;
+  letter-spacing: 0.3px;
+  color: var(--color-accent-light);
+}
+
+.logo-accent {
+  
+  /* color: var(--color-lightest); */
+  color: aliceblue;
+}
+.nav-links {
+  display: flex;
+  gap: 2rem;
+}
+
+ .nav-link {
+  color: 
+#b2bbcc; 
+  /* color: var(--color-lightest); */
+  text-decoration: none;
+  font-weight: 600;
+  font-size: 1.3rem;
+  padding: 0.5rem 1rem;
+  border-radius: 8px;
+  transition: background-color 0.3s ease;
+}
+.nav-link:hover {
+  background-color: var(--color-mid);
+}
+.nav-link.active {
+  background-color: var(--color-mid);
+  font-weight: 700;
+}
+
+.hamburger-btn {
+  display: none;
+  background: none;
+  border: none;
+  color: var(--color-lightest);
+  font-size: 1.8rem;
+     
+  cursor: pointer;
+}
+
+@media (max-width: 768px) {
+  .hamburger-btn {
+    display: block;
+    padding: 0px;
+  }
+  .navbar{
+     padding-right: 1.5rem;
+     padding-left: 1.5rem;
+  }
+
+    .nav-links {
+    display: none;
+    flex-direction: column;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    width: 100%;
+    background: rgba(0, 10, 18, 0.95);
+    backdrop-filter: blur(12px);
+    padding: 1rem 0;
+    gap: 1rem;
+    text-align: center;
+  }
+   .nav-links-open {
+    display: flex;
+  }
+}
