@@ -33,7 +33,7 @@ const handleInputChange = (e) => {
     setLoading(true);
     setError(null);
 
-    const prompt = `You are a quiz generator. Based on the following topic or notes, create at least 10 multiple-choice questions. Also generate a short, clear topic name (2-5 words) summarizing what this quiz is about — this is especially important if the input is long notes rather than a simple topic name.
+    const prompt = `You are a quiz generator. Based on the following topic or notes, create at least 15 multiple-choice questions. Also generate a short, clear topic name (2-5 words) summarizing what this quiz is about — this is especially important if the input is long notes rather than a simple topic name.
 
 Respond ONLY with a valid JSON object in this exact format, no extra text, no markdown:
 {

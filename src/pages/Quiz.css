@@ -18,11 +18,11 @@
 }
 .input--box {
   width: 100%;
-  min-height: 150px;
+  min-height: 120px;
   padding: 1rem;
   max-height: 500px;
   resize: none;
-  margin-bottom: 25px;
+  margin-bottom: 10px;
   font-size: 1.3rem;
   font-family: inherit;
   color: #b2bbcc;
@@ -41,7 +41,7 @@
 .input--box::placeholder {
   color: #a8bcc9; 
   opacity: 0.3; 
-  font-size: 20px;
+  font-size: 17px;
 }
 
 .primary--btn {
@@ -134,8 +134,7 @@
 }
 .quiz-finished {
  text-align: center;
-  
-  padding: 1.5rem;
+  padding: 1rem;
 }
 .score-text {
   font-size: 1.3rem;
@@ -180,7 +179,7 @@ padding-bottom: 1.5rem;
      font-size: 1.13rem;
 }
 .input--box{
-  min-height: 120px;
+  min-height: 100px;
 }
 .input--box::placeholder {
  

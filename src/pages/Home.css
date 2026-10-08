@@ -35,9 +35,9 @@
   width: 100%;
   max-height: 500px;
   resize: none;
-  min-height: 150px;
+  min-height: 120px;
   padding: 1rem;
-  margin-bottom: 20px;
+  margin-bottom: 10px;
   font-size: 1.3rem;
   font-family: inherit;
   color: #b2bbcc;
@@ -58,7 +58,7 @@
 .input-box::placeholder {
   color: #a8bcc9;
   opacity: 0.3;
-  font-size: 20px;
+  font-size: 17px;
 }
 .primary-btn {
   color: #0a1520;
@@ -127,7 +127,7 @@
   border: 1px solid rgba(255, 255, 255, 0.1);
   border-radius: 12px; */
   padding: 1.5rem;
-  line-height: 1.7;
+  line-height: 1.5;
   color: #b2bbcc;
   font-size: 20px;
 }
@@ -159,7 +159,7 @@
   font-size: 1.13rem;
 }
 .input-box{
-  min-height: 120px;
+  min-height: 100px;
 }
 .input-box::placeholder {
  
