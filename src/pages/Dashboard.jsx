@@ -76,7 +76,7 @@ export const Dashboard = () => {
             {reviewList.length > 0 ? (
               reviewList.map((item, index) => (
                <p key={index} className="review-item">
-  📌 <span className="item-label">Topic:</span> {item.topic} <br /> <span className="item-label">Next review:</span> {item.reviewDate}
+  📌 <span className="item-label">Topic:</span> {item.topic} <br /> <br/> <span className="item-label">Next review:</span> {item.reviewDate}
 </p>
               ))
             ) : (

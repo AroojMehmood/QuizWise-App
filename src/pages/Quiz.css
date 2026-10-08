@@ -10,7 +10,7 @@
 
 .page--subtitle{
     margin-bottom: 2.6rem;
-     font-size: 1.2rem;
+     font-size: 1.3rem;
   text-align: center;
   
   color: #b2bbcc;
@@ -81,7 +81,7 @@
   color: #b2bbcc;
 }
 .question-text {
-  font-size: 1.2rem;
+  font-size: 1.3rem;
   margin-bottom: 1rem;
   line-height: 1.6;
 }
@@ -97,6 +97,7 @@
   border: 1px solid rgba(255, 255, 255, 0.1);
   border-radius: 8px;
   cursor: pointer;
+  font-size: 15px;
   transition: background-color 0.2s ease, border-color 0.2s ease;
 }
 .option-label:hover {

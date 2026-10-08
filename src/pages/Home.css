@@ -25,7 +25,7 @@
 }
 
 .page-subtitle {
-  font-size: 1.2rem;
+  font-size: 1.3rem;
   text-align: center;
   /* color: var(--color-light); */
   color: #b2bbcc;
@@ -127,9 +127,9 @@
   border: 1px solid rgba(255, 255, 255, 0.1);
   border-radius: 12px; */
   padding: 1.5rem;
-  line-height: 1.5;
+  line-height: 1.7;
   color: #b2bbcc;
-  font-size: 20px;
+  font-size: 17px;
 }
 .status-msg {
   text-align: center;
